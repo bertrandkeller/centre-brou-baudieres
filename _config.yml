@@ -1,0 +1,13 @@
+title: "Centre Brou Baudières"
+
+theme: overkyll-jekyll-theme
+permalink: pretty
+
+plugins:
+  - jekyll-tidy
+  - jekyll-commonmark
+  - jekyll-feed
+
+jekyll_tidy:
+  compress_html: true
+  exclude: ["sw.js","404.html","offline.md"]
