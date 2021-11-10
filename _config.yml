@@ -1,11 +1,4 @@
 title: "Centre Brou Baudières"
 permalink: pretty
 
-plugins:
-  - jekyll-tidy
-  - jekyll-commonmark
-  - jekyll-feed
 
-jekyll_tidy:
-  compress_html: true
-  exclude: ["sw.js","404.html","offline.md"]
