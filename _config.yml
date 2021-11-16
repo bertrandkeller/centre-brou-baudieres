@@ -1,4 +1,36 @@
-title: "Centre Brou Baudières"
-permalink: pretty
+title: "Citoyens de Centre Brou - Bourg-en-Bresse"
+description: Site des conseils citoyens de Centre-Brou-Baudières à Bourg-en-Bresse
+lang: fr
+timezone: UTC
+
+markdown: kramdown
+excerpt_separator: "<!-- more -->"
+
+kramdown:
+  auto_ids: false
+  enable_coderay: false
+  entity_output: as_char
+  footnote_nr: 1
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+
+theme: jekyll-whiteglass
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+
+permalink: /:year/:month/:day/:title/
+paginate_path: /posts/:num/
+paginate: 1
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
