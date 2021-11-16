@@ -7,7 +7,7 @@ url: "https://bertrandkeller.github.io"
 baseurl: "/citoyens-de-centre-brou"
 
 markdown: kramdown
-remote_theme: yous/whiteglass
+remote_theme: bertrandkeller/whiteglass
 excerpt_separator: "<!-- more -->"
 
 kramdown:
