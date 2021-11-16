@@ -2,7 +2,6 @@
 layout: page
 title: "Contactez nous"
 permalink: /contact/
-published: false
 ---
 
 <style>
@@ -93,6 +92,7 @@ button {
       <textarea placeholder="Votre message" class="form-control" name="message" rows="20" required></textarea>
     </div>
     <button type="submit">Envoyer votre message</button>
+    <input type="hidden" name="_url" value="https://{{ site.url }}{{ 'contact/' | prepend: site.baseurl }}">
   </form>
 </div>
 

@@ -3,6 +3,7 @@ description: Site des conseils citoyens de Centre-Brou-Baudières à Bourg-en-Br
 author: Bertrand Keller
 lang: fr
 timezone: UTC
+url: "https://bertrandkeller.github.io"
 baseurl: "/citoyens-de-centre-brou"
 
 markdown: kramdown

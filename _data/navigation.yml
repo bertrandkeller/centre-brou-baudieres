@@ -5,5 +5,5 @@ main:
     url: /apropos/
   - title: "Archives"
     url: /archives/
-  # - title: "Contact"
-  #  url: /contact/
+  - title: "Contact"
+    url: /contact/
