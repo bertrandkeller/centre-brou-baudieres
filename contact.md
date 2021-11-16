@@ -92,7 +92,8 @@ button {
       <textarea placeholder="Votre message" class="form-control" name="message" rows="20" required></textarea>
     </div>
     <button type="submit">Envoyer votre message</button>
-    <input type="hidden" name="_url" value="https://{{ site.url }}{{ 'contact/' | prepend: site.baseurl }}">
+    <input type="hidden" name="_url" value="{{ site.url }}{{ '/contact/' | prepend: site.baseurl }}">
+    <input type="hidden" name="_next" value="{{ site.url }}{{ '/confirmation/' | prepend: site.baseurl }}">
   </form>
 </div>
 
