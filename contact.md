@@ -94,6 +94,9 @@ button {
     <button type="submit">Envoyer votre message</button>
     <input type="hidden" name="_url" value="{{ site.url }}{{ '/contact/' | prepend: site.baseurl }}">
     <input type="hidden" name="_next" value="{{ site.url }}{{ '/confirmation/' | prepend: site.baseurl }}">
+    <input type="hidden" name="_subject" value="Conseil citoyens - Message provenant du site">
+    <input type="text" name="_honey" style="display:none">
+    <input type="hidden" name="_captcha" value="false">
   </form>
 </div>
 
