@@ -2,6 +2,7 @@
 layout: page
 title: "Contactez nous"
 permalink: /contact/
+published: false
 ---
 
 <style>

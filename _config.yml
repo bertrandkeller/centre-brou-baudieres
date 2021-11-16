@@ -5,9 +5,8 @@ lang: fr
 timezone: UTC
 baseurl: "/citoyens-de-centre-brou"
 
-remote_theme: yous/whiteglass
-
 markdown: kramdown
+remote_theme: yous/whiteglass
 excerpt_separator: "<!-- more -->"
 
 kramdown:
