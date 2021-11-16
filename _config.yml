@@ -1,7 +1,9 @@
 title: "Citoyens de Centre Brou - Bourg-en-Bresse"
 description: Site des conseils citoyens de Centre-Brou-Baudières à Bourg-en-Bresse
+author: Bertrand Keller
 lang: fr
 timezone: UTC
+baseurl: "/citoyens-de-centre-brou"
 
 markdown: kramdown
 excerpt_separator: "<!-- more -->"
